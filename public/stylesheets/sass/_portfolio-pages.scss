@@ -1,0 +1,46 @@
+.page-title {
+    margin: 40px 0 0 300px;
+    color: $text-default;
+    text-shadow: 1px 1px white;
+}
+.portfolio-container {
+    display: inline-block;
+    margin-bottom: 40px;
+}
+.portfolio-content {
+    display: inline-block;
+
+    .pf-description {
+        width: 550px;
+        font-size: 14px;
+        line-height: 24px;
+        margin: 15px 0;
+        em {
+            font-weight: bold;
+        }
+        a {
+            font-size: 14px;
+            &:hover {
+                color: $accent-color;
+                text-decoration: none;
+            }
+        }
+        ul {
+            margin-left: 40px;
+            text-indent: 20px;
+        }
+
+    }
+    img {
+        margin-right: 15px;
+    }
+}
+.tile-left {
+    a {
+        font-size: 14px;
+        &:hover {
+            color: $accent-color;
+            text-decoration: none;
+        }
+    }
+}

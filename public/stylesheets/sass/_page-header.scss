@@ -7,11 +7,17 @@ header {
     margin: 0 auto;
 }
 .name {
-    font-size: 60px;
-    margin: 20px 0 0 40px;
-    display: inline-block;
-    float: left;
-    text-shadow: 0 1px white;
+    a {
+        font-size: 60px;
+        margin: 50px 0 0 40px;
+        display: inline-block;
+        float: left;
+        text-shadow: 0 1px white;
+
+        &:hover {
+            color: $accent-color;
+        }
+    }
 }
 .header-nav {
     display: inline-block;

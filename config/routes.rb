@@ -1,4 +1,6 @@
 Portfolio2011::Application.routes.draw do
+  get "pages/connexive"
+
   get "pages/webmessenger"
 
   get "pages/mobilehome"
@@ -22,7 +24,7 @@ Portfolio2011::Application.routes.draw do
   match '/onboarding', :to => 'pages#onboarding'
   match '/personalprojects', :to => 'pages#personalprojects'
   match '/gadgets', :to => 'pages#gadgets'
-  match '/webmessenger', :to => 'pages#webmessenger'
+  match '/connexive', :to => 'pages#connexive'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

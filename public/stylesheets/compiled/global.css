@@ -8,12 +8,14 @@ header {
   width: 1024px;
   margin: 0 auto; }
 
-.name {
+.name a {
   font-size: 60px;
-  margin: 20px 0 0 40px;
+  margin: 50px 0 0 40px;
   display: inline-block;
   float: left;
   text-shadow: 0 1px white; }
+  .name a:hover {
+    color: #3aa8ef; }
 
 .header-nav {
   display: inline-block;
@@ -29,32 +31,38 @@ header {
         color: #3aa8ef; }
 
 .tile-area {
-  margin: 0 34px 40px 34px;
-  padding-top: 40px;
-  display: block;
   width: 968px;
+  padding-top: 40px; }
+
+.tile-left {
+  vertical-align: top; }
+
+.tile-area, .tile-left {
+  margin: 0 34px 40px 34px;
+  display: block;
   display: inline-block; }
-  .tile-area .tile-vertical {
+  .tile-area .tile-vertical, .tile-left .tile-vertical {
     vertical-align: top;
     display: inline-block;
     margin-right: 20px; }
-    .tile-area .tile-vertical:last-of-type {
+    .tile-area .tile-vertical:last-of-type, .tile-left .tile-vertical:last-of-type {
       margin-right: 0; }
-    .tile-area .tile-vertical .tile {
+    .tile-area .tile-vertical .tile, .tile-left .tile-vertical .tile {
       width: 222px;
       position: relative;
       display: inline-block;
-      margin-bottom: 20px;
+      margin-bottom: 10px;
+      margin-top: 10px;
       background-color: white;
       border: 1px solid white;
       box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.6);
       -moz-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.6);
       -webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.6);
       float: left; }
-      .tile-area .tile-vertical .tile .small-image {
+      .tile-area .tile-vertical .tile .small-image, .tile-left .tile-vertical .tile .small-image {
         margin: 0px 0px 10px 0px;
         position: relative; }
-        .tile-area .tile-vertical .tile .small-image img {
+        .tile-area .tile-vertical .tile .small-image img, .tile-left .tile-vertical .tile .small-image img {
           width: 220px;
           height: 180px;
           margin: 1px;
@@ -62,20 +70,55 @@ header {
           -moz-box-shadow: inset 0 0 10px #cccccc;
           -webkit-box-shadow: inset 0 0 10px #cccccc;
           box-shadow: inset 0 0 10px #cccccc; }
-      .tile-area .tile-vertical .tile .label {
+      .tile-area .tile-vertical .tile .label, .tile-left .tile-vertical .tile .label {
         padding: 0 15px 5px 15px;
         border-bottom: 2px dotted #dddddd;
         font-family: 'La Belle Aurore', cursive; }
-        .tile-area .tile-vertical .tile .label a {
+        .tile-area .tile-vertical .tile .label a, .tile-left .tile-vertical .tile .label a {
           font-size: 24px; }
-          .tile-area .tile-vertical .tile .label a:hover {
+          .tile-area .tile-vertical .tile .label a:hover, .tile-left .tile-vertical .tile .label a:hover {
             text-decoration: none;
             color: #3aa8ef; }
-      .tile-area .tile-vertical .tile .description {
+      .tile-area .tile-vertical .tile .description, .tile-left .tile-vertical .tile .description {
         padding: 10px 15px;
         font-size: 12px;
         color: #534b45;
         line-height: 18px; }
+
+.page-title {
+  margin: 40px 0 0 300px;
+  color: #534b45;
+  text-shadow: 1px 1px white; }
+
+.portfolio-container {
+  display: inline-block;
+  margin-bottom: 40px; }
+
+.portfolio-content {
+  display: inline-block; }
+  .portfolio-content .pf-description {
+    width: 550px;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 15px 0; }
+    .portfolio-content .pf-description em {
+      font-weight: bold; }
+    .portfolio-content .pf-description a {
+      font-size: 14px; }
+      .portfolio-content .pf-description a:hover {
+        color: #3aa8ef;
+        text-decoration: none; }
+    .portfolio-content .pf-description ul {
+      margin-left: 40px;
+      text-indent: 20px; }
+  .portfolio-content img {
+    margin-right: 15px; }
+
+.tile-left a {
+  font-size: 14px; }
+  .tile-left a:hover {
+    color: #3aa8ef;
+    text-decoration: none; }
 
 body {
   background: #f6f5f6;
@@ -96,6 +139,7 @@ h1 {
 
 h2 {
   color: #cccccc;
+  font-family: 'La Belle Aurore', cursive;
   font-size: 24px;
   font-weight: bold; }
 

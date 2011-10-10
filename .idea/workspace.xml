@@ -2,23 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a1483ee-dba5-41c2-a165-ac6af6f281f6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/portfolio2011.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/facebox.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/reset.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/sass/_colors.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/sass/_facebox.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/sass/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/sass/_page-header.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/sass/_tile.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/sass/_portfolio-pages.scss" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/rails.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/stylesheets/sass/timeline.scss" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/d1660fb29e6534c537d3b84d5cbece6554b1426e/_page-header.scssc" afterPath="$PROJECT_DIR$/.sass-cache/d1660fb29e6534c537d3b84d5cbece6554b1426e/_page-header.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/d1660fb29e6534c537d3b84d5cbece6554b1426e/_tile.scssc" afterPath="$PROJECT_DIR$/.sass-cache/d1660fb29e6534c537d3b84d5cbece6554b1426e/_tile.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/d1660fb29e6534c537d3b84d5cbece6554b1426e/global.scssc" afterPath="$PROJECT_DIR$/.sass-cache/d1660fb29e6534c537d3b84d5cbece6554b1426e/global.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pages/dashboard.html.erb" afterPath="$PROJECT_DIR$/app/views/pages/dashboard.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pages/gadgets.html.erb" afterPath="$PROJECT_DIR$/app/views/pages/gadgets.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pages/home.html.erb" afterPath="$PROJECT_DIR$/app/views/pages/home.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pages/mobilehome.html.erb" afterPath="$PROJECT_DIR$/app/views/pages/mobilehome.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pages/onboarding.html.erb" afterPath="$PROJECT_DIR$/app/views/pages/onboarding.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pages/personalprojects.html.erb" afterPath="$PROJECT_DIR$/app/views/pages/personalprojects.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pages/webmessenger.html.erb" afterPath="$PROJECT_DIR$/app/views/pages/webmessenger.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/compiled/global.css" afterPath="$PROJECT_DIR$/public/stylesheets/compiled/global.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/sass/_page-header.scss" afterPath="$PROJECT_DIR$/public/stylesheets/sass/_page-header.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/sass/_tile.scss" afterPath="$PROJECT_DIR$/public/stylesheets/sass/_tile.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/sass/global.scss" afterPath="$PROJECT_DIR$/public/stylesheets/sass/global.scss" />
     </list>
     <ignored path="portfolio2011.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,25 +47,25 @@
       <file leaf-file-name="home.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/pages/home.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="81" column="18" selection-start="3783" selection-end="3783" vertical-scroll-proportion="-50.625">
+            <state line="17" column="88" selection-start="811" selection-end="811" vertical-scroll-proportion="-10.625">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="10" selection-start="441" selection-end="441" vertical-scroll-proportion="-9.375">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="global.scss" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="global.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/stylesheets/sass/global.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="20" selection-start="2102" selection-end="2102" vertical-scroll-proportion="1.2879789">
+            <state line="18" column="19" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_portfolio-pages.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/stylesheets/sass/_portfolio-pages.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="59" selection-start="657" selection-end="657" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -71,16 +74,7 @@
       <file leaf-file-name="_page-header.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/stylesheets/sass/_page-header.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="40" selection-start="591" selection-end="591" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_tile.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/stylesheets/sass/_tile.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="24" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0">
+            <state line="11" column="17" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -89,16 +83,34 @@
       <file leaf-file-name="_header.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="34" selection-start="425" selection-end="425" vertical-scroll-proportion="-5.0">
+            <state line="2" column="45" selection-start="87" selection-end="87" vertical-scroll-proportion="-1.25">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_colors.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/stylesheets/sass/_colors.scss">
+      <file leaf-file-name="dashboard.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/pages/dashboard.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="13" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="2051" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="connexive.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/pages/connexive.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="88" selection-start="661" selection-end="661" vertical-scroll-proportion="0.29453015">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -118,16 +130,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/public/stylesheets/compiled/global.css" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/public/stylesheets/sass/global.scss" />
         <option value="$PROJECT_DIR$/public/stylesheets/sass/_colors.scss" />
+        <option value="$PROJECT_DIR$/public/stylesheets/sass/_tile.scss" />
+        <option value="$PROJECT_DIR$/app/views/pages/webmessenger.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/pages/personalprojects.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/pages/onboarding.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/pages/mobilehome.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/pages/gadgets.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/pages/dashboard.html.erb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/public/stylesheets/sass/_portfolio-pages.scss" />
         <option value="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
         <option value="$PROJECT_DIR$/public/stylesheets/sass/_page-header.scss" />
-        <option value="$PROJECT_DIR$/public/stylesheets/sass/_tile.scss" />
         <option value="$PROJECT_DIR$/app/views/pages/home.html.erb" />
-        <option value="$PROJECT_DIR$/public/stylesheets/sass/global.scss" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/views/pages/connexive.html.erb" />
       </list>
     </option>
   </component>
@@ -250,24 +268,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="compiled" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="portfolio2011" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="portfolio2011" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -718,114 +718,114 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/reset.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="38" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/compiled/global.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/sass/_mixins.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/sass/_colors.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="34" selection-start="425" selection-end="425" vertical-scroll-proportion="-5.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/sass/_page-header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="40" selection-start="591" selection-end="591" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="10" selection-start="441" selection-end="441" vertical-scroll-proportion="-9.375">
+        <state line="3" column="24" selection-start="69" selection-end="69" vertical-scroll-proportion="0.061058346">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/sass/_tile.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="24" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0">
+        <state line="26" column="27" selection-start="511" selection-end="511" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/sass/_facebox.scss">
+    <entry file="file://$PROJECT_DIR$/app/views/pages/webmessenger.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="45" column="25" selection-start="0" selection-end="2723" vertical-scroll-proportion="-28.125">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/facebox.js">
+    <entry file="file://$PROJECT_DIR$/app/views/pages/personalprojects.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="109" selection-start="2425" selection-end="2425" vertical-scroll-proportion="0.28493893">
+        <state line="15" column="18" selection-start="696" selection-end="696" vertical-scroll-proportion="0.31556803">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pages/home.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/pages/onboarding.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="18" selection-start="3783" selection-end="3783" vertical-scroll-proportion="-50.625">
+        <state line="0" column="48" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/pages/mobilehome.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="2" selection-start="245" selection-end="245" vertical-scroll-proportion="0.34599727">
+        <state line="15" column="18" selection-start="723" selection-end="723" vertical-scroll-proportion="0.31556803">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pages/gadgets.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="38" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/sass/global.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="20" selection-start="2102" selection-end="2102" vertical-scroll-proportion="1.2879789">
+        <state line="18" column="19" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pages/dashboard.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="2051" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="45" selection-start="652" selection-end="652" vertical-scroll-proportion="0.5291723">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/sass/_portfolio-pages.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="59" selection-start="657" selection-end="657" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="45" selection-start="87" selection-end="87" vertical-scroll-proportion="-1.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/sass/_page-header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="17" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pages/home.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="88" selection-start="811" selection-end="811" vertical-scroll-proportion="-10.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pages/connexive.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="88" selection-start="661" selection-end="661" vertical-scroll-proportion="0.29453015">
           <folding />
         </state>
       </provider>
