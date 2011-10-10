@@ -16,6 +16,7 @@ header {
 
         &:hover {
             color: $accent-color;
+            text-shadow: 0 1px white, 0 -1px $bordergrey;
         }
     }
 }

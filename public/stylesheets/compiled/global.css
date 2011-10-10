@@ -15,7 +15,8 @@ header {
   float: left;
   text-shadow: 0 1px white; }
   .name a:hover {
-    color: #3aa8ef; }
+    color: #1397ea;
+    text-shadow: 0 1px white, 0 -1px #dddddd; }
 
 .header-nav {
   display: inline-block;
@@ -28,7 +29,7 @@ header {
       margin-right: 24px; }
       .header-nav ul li a:hover {
         text-decoration: none;
-        color: #3aa8ef; }
+        color: #1397ea; }
 
 .tile-area {
   width: 968px;
@@ -78,7 +79,7 @@ header {
           font-size: 24px; }
           .tile-area .tile-vertical .tile .label a:hover, .tile-left .tile-vertical .tile .label a:hover {
             text-decoration: none;
-            color: #3aa8ef; }
+            color: #1397ea; }
       .tile-area .tile-vertical .tile .description, .tile-left .tile-vertical .tile .description {
         padding: 10px 15px;
         font-size: 12px;
@@ -106,7 +107,7 @@ header {
     .portfolio-content .pf-description a {
       font-size: 14px; }
       .portfolio-content .pf-description a:hover {
-        color: #3aa8ef;
+        color: #1397ea;
         text-decoration: none; }
     .portfolio-content .pf-description ul {
       margin-left: 40px;
@@ -117,7 +118,7 @@ header {
 .tile-left a {
   font-size: 14px; }
   .tile-left a:hover {
-    color: #3aa8ef;
+    color: #1397ea;
     text-decoration: none; }
 
 body {

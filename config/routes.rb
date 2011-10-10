@@ -1,4 +1,6 @@
 Portfolio2011::Application.routes.draw do
+  root :to => "pages#home"
+
   get "pages/connexive"
 
   get "pages/webmessenger"
