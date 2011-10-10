@@ -1,0 +1,219 @@
+@import url("/stylesheets/reset.css");
+@import url(http://fonts.googleapis.com/css?family=La+Belle+Aurore|Ubuntu+Condensed);
+header {
+  height: 70px;
+  background-color: white; }
+
+.header-container {
+  width: 1024px;
+  margin: 0 auto; }
+
+.name {
+  font-size: 60px;
+  margin: 20px 0 0 40px;
+  display: inline-block;
+  float: left;
+  text-shadow: 0 1px white; }
+
+.header-nav {
+  display: inline-block;
+  float: right;
+  margin: 50px 40px 10px 0; }
+  .header-nav ul li {
+    display: inline-block; }
+    .header-nav ul li a {
+      font-size: 14px;
+      margin-right: 24px; }
+      .header-nav ul li a:hover {
+        text-decoration: none;
+        color: #3aa8ef; }
+
+.tile-area {
+  margin: 0 34px 40px 34px;
+  padding-top: 40px;
+  display: block;
+  width: 968px;
+  display: inline-block; }
+  .tile-area .tile-vertical {
+    vertical-align: top;
+    display: inline-block;
+    margin-right: 20px; }
+    .tile-area .tile-vertical:last-of-type {
+      margin-right: 0; }
+    .tile-area .tile-vertical .tile {
+      width: 222px;
+      position: relative;
+      display: inline-block;
+      margin-bottom: 20px;
+      background-color: white;
+      border: 1px solid white;
+      box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.6);
+      -moz-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.6);
+      -webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.6);
+      float: left; }
+      .tile-area .tile-vertical .tile .small-image {
+        margin: 0px 0px 10px 0px;
+        position: relative; }
+        .tile-area .tile-vertical .tile .small-image img {
+          width: 220px;
+          height: 180px;
+          margin: 1px;
+          border: 0;
+          -moz-box-shadow: inset 0 0 10px #cccccc;
+          -webkit-box-shadow: inset 0 0 10px #cccccc;
+          box-shadow: inset 0 0 10px #cccccc; }
+      .tile-area .tile-vertical .tile .label {
+        padding: 0 15px 5px 15px;
+        border-bottom: 2px dotted #dddddd;
+        font-family: 'La Belle Aurore', cursive; }
+        .tile-area .tile-vertical .tile .label a {
+          font-size: 24px; }
+          .tile-area .tile-vertical .tile .label a:hover {
+            text-decoration: none;
+            color: #3aa8ef; }
+      .tile-area .tile-vertical .tile .description {
+        padding: 10px 15px;
+        font-size: 12px;
+        color: #534b45;
+        line-height: 18px; }
+
+body {
+  background: #f6f5f6;
+  font-family: Helvetica, Verdana, Arial, sans-serif; }
+
+.container {
+  width: 1024px;
+  margin: 0 auto; }
+
+.clear {
+  clear: both; }
+
+h1 {
+  color: #cccccc;
+  font-family: 'La Belle Aurore', cursive;
+  font-size: 30px;
+  font-weight: bold; }
+
+h2 {
+  color: #cccccc;
+  font-size: 24px;
+  font-weight: bold; }
+
+h2 b {
+  font-weight: bold; }
+
+h3 {
+  color: #cccccc;
+  font-size: 18px;
+  font-weight: bold; }
+
+h4 {
+  color: #cccccc;
+  font-size: 12px;
+  font-weight: bold; }
+
+h5 {
+  color: #cccccc;
+  font-size: 12px;
+  font-weight: normal; }
+
+h5 span {
+  color: #cccccc;
+  font-size: 18px;
+  font-weight: normal; }
+
+ul {
+  list-style: none; }
+
+p {
+  color: #cccccc;
+  font-family: inherit;
+  font-size: 12px;
+  line-height: 18px; }
+
+a {
+  color: #cccccc;
+  font-family: inherit;
+  font-size: 12px;
+  line-height: 18px;
+  outline: none;
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none; }
+
+textarea {
+  resize: none;
+  overflow: auto; }
+
+input {
+  color: #cccccc;
+  font-size: 14px; }
+
+input:focus, textarea:focus {
+  color: #cccccc;
+  outline: none; }
+
+input[type="radio"] {
+  vertical-align: text-bottom; }
+
+input[type="checkbox"] {
+  vertical-align: bottom; }
+
+.ie7 input[type="checkbox"] {
+  vertical-align: baseline; }
+
+.ie6 input {
+  vertical-align: text-bottom; }
+
+#primary {
+  overflow: hidden;
+  float: left;
+  width: 1024px;
+  /*    margin: 0 10px 40px 15px;*/
+  display: inline-block; }
+  #primary header {
+    overflow: hidden; }
+    #primary header h1 {
+      float: left; }
+
+.statement {
+  display: block;
+  color: #534b45;
+  width: 630px;
+  line-height: 30px;
+  margin: 80px auto 0 auto;
+  padding-bottom: 40px;
+  font-size: 20px;
+  text-shadow: 1px 1px white;
+  border-bottom: 1px solid #dddddd; }
+  .statement em {
+    font-weight: bold; }
+
+.border-emboss {
+  width: 630px;
+  margin: 0 auto 0 auto;
+  border-top: 1px solid white; }
+
+.button {
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  width: auto;
+  background: white;
+  background: -moz-linear-gradient(top, white 0%, #cccccc 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #cccccc), color-stop(100%, #cccccc));
+  background: -webkit-linear-gradient(top, white 0%, #cccccc 100%);
+  background: -o-linear-gradient(top, white 0%, #cccccc 100%);
+  background: -ms-linear-gradient(top, white 0%, #cccccc 100%);
+  /*
+      Note: bug in SASS, the colors in quotes below do not get replaced with the correct variable when using SASS
+      color variables
+  */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6f6f6', endColorstr='#ededed',GradientType=0 );
+  background: linear-gradient(top, white 0%, #cccccc 100%);
+  border: 1px solid #cecccc;
+  padding: 2px 16px 2px 16px;
+  font-size: 12px;
+  color: #777777;
+  display: inline-block; }

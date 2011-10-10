@@ -1,0 +1,504 @@
+#facebox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  text-align: left;
+  overflow: hidden;
+  max-height: 700px;
+  .facebox-message-body {
+      max-height:590px;
+      overflow:auto;
+  }
+
+  .popup {
+        @include rounded-corners(5px);
+        position:relative;
+        border:3px solid rgba(0,0,0,0);
+        -webkit-box-shadow:0 0 18px rgba(0,0,0,0.4);
+        -moz-box-shadow: 0 0 18px rgba(0,0,0,0.4);
+        box-shadow:0 0 18px rgba(0,0,0,0.4);
+  }
+
+  .content {
+        @include rounded-corners(4px);
+        display:table;
+        width: 820px;
+        padding: 10px;
+        background: white;
+
+        > p:first-child{
+            margin-top:0;
+        }
+
+        > p:last-child{
+            margin-bottom:0;
+        }
+  }
+
+  .close{
+        position:absolute;
+        top:11px;
+        right:9px;
+        padding:2px;
+        width: 21px;
+        height: 17px;
+        display: block;
+        background: url(/images/buttons/btn-close.png) no-repeat 0 0;
+
+        &:hover{
+             background: url(/images/buttons/btn-close.png) no-repeat 0 100%;
+        }
+
+        img {
+            display:none;
+        }
+  }
+
+  .loading{
+        text-align: center;
+  }
+
+  .image{
+        text-align: center;
+  }
+
+  .company-logo img {
+        border: 0;
+        margin: 1px 4px 1px 0;
+  }
+}
+
+#facebox_overlay {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height:100%;
+    width:100%;
+}
+
+.facebox_hide {
+    z-index:-100;
+}
+
+.facebox_overlayBG {
+    background-color: #000;
+    z-index: 99;
+}
+
+
+
+
+/*****
+
+    Email Styles
+
+*****/
+
+ul#email-options {
+    float: right;
+    margin: 0 26px 10px 0;
+    li {
+        float: left;
+        padding: 0 2px;
+        color: #755434;
+        font-size: 12px;
+        line-height: 27px;
+        height: 27px;
+        color: #727b7f;
+
+        a {
+            display: block;
+            height: 27px;
+            line-height: 27px;
+            color: #727b7f;
+        }
+    }
+}
+
+
+.pin {
+    background: url(/images/buttons/pin_inactive.png) no-repeat left center;
+    padding: 0 0 0 25px;
+    display: block;
+    &:hover {
+        background: url(/images/buttons/pin_active.png) no-repeat left center;
+    }
+}
+
+.pinned {
+    padding: 0 0 0 25px;
+    display: block;
+    background: url(/images/buttons/pin_active.png) no-repeat left center;
+}
+
+.static-pin {
+    padding: 0 0 0 25px;
+    display: block;
+    background: url(/images/icons/icon-pin2.png) no-repeat left center;
+    }
+
+.email-header {
+    overflow: hidden;
+    background: #e8eaea;
+    border: 1px solid #e0e0e0;
+    height: 20px;
+    padding: 8px 8px;
+    margin-bottom: 16px;
+
+    .email-title{
+        @include truncate(475px);
+    }
+
+    .time-stamp {
+        float: right;
+        font-size: 14px;
+        line-height: 21px;
+        margin: 0 17px 0 0;
+    }
+}
+
+.email-title {
+    float: left;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+
+#facebox .institution {
+    overflow: hidden;
+    background: #fff;
+    min-height: 150px;
+    width: 570px;
+    position: relative;
+
+    p{
+        margin: 30px 0 17px 20px;
+        font-size: 14px;
+        color: #231f20;
+
+        em {
+            font-weight:bold;
+        }
+    }
+
+    #institution-query {
+        display: block;
+        margin: 0 0 45px 20px;
+        width: 456px;
+        float: left;
+        color: $darkgrey;
+        font-size: 18px;
+        padding: 11px 10px 10px 10px;
+        border: 1px solid $lightgrey;
+        font-weight: bold;
+    }
+
+    #submit-institution {
+        display: inline-block;
+        background: url(/images/buttons/btn-search.png) no-repeat;
+        width: 44px;
+        height: 44px;
+    }
+
+    #new-institution {
+        overflow: hidden;
+        margin: 0 0 25px 20px;
+
+        p {
+            font-size: 14px;
+            color: #a4a4a4;
+            margin: 0 0 17px 0;
+
+            &.website-label {
+                color: #231f20;
+                float: left;
+                margin: 0 35px 20px 0;
+                display:inline;
+            }
+        }
+    }
+}
+
+#facebox .close-box {
+    color: #727b7f;
+    font-size: 12px;
+    position: absolute;
+    top: 15px;
+    right: 40px;
+}
+
+
+
+#facebox .account {
+    overflow: hidden;
+    background: #fff;
+    min-height: 250px;
+    width: 570px;
+    position: relative;
+
+    p {
+        margin: 40px 0 20px 20px;
+        font-size: 14px;
+        color: $darkbrown;
+
+        em {
+            font-weight:bold;
+        }
+    }
+
+    .institution-name {
+        display: block;
+        width: 456px;
+        border: 1px solid $lightgrey;
+        color: $darkgrey;
+        font-size: 18px;
+        font-weight: bold;
+        padding: 11px 10px 10px 10px;
+        margin: 0 0 25px 20px;
+        &:disabled {
+            // Put CSS for when input field is disabled here
+        }
+    }
+
+    .bill-field {
+        overflow: hidden;
+        margin: 0 0 25px 20px;
+
+        label {
+            display: block;
+            float: left;
+            color: #231f20;
+            font-size: 14px;
+            margin: 1px 35px 0 0;
+            line-height: 25px;
+        }
+
+        .dollar {
+            float: left;
+            display: block;
+            color: $lightgrey;
+            font-size: 14px;
+            margin: 0 7px 0 0;
+            line-height: 25px;
+        }
+
+        input {
+            border: 1px solid $lightgrey;
+            width: 140px;
+            padding: 5px;
+            margin-top: 1px;
+        }
+    }
+
+    .recurring {
+        overflow: hidden;
+        margin: 0 0 20px 20px;
+
+        p {
+            float: left;
+            margin: 4px 8px 0 0;
+            color: #2e2125;
+            font-size: 14px;
+
+            span {
+                color: $lightgrey;
+            }
+        }
+
+        #month {
+            display: block;
+            float: left;
+            border: 1px solid $lightgrey;
+            width: 50px;
+            padding: 5px;
+            margin: 0 8px 0 0;
+        }
+
+        .autopay_icon {
+            width:17px;
+            height: 16px;
+            margin: 6px 8px 0 0;
+            float: left;
+            display:inline;
+        }
+    }
+
+    .checkbox_newbill {
+        float: left;
+        display: block;
+        margin: 10px 10px 10px 0;
+    }
+
+    #private-institution {
+        float: left;
+        overflow: hidden;
+        margin: 0 0 20px 20px;
+        font-size: 14px;
+        line-height:18px;
+        padding-top: 4px;
+
+        .new-account-message {
+            margin-bottom: 20px;
+        }
+        .website-label {
+            margin-right: 25px;
+        }
+
+        input {
+            display: inline;
+            width: 230px;
+            padding: 5px;
+            border: 1px solid $lightgrey;
+            font-size:18px;
+            position: relative;
+            top: -4px;
+        }
+    }
+
+
+}
+
+#facebox .welcome {
+    width: 750px;
+    height: 385px;
+
+    #congratulations-box {
+        margin: 20px;
+    }
+    .welcome-text{
+        width:400px;
+        display:inline-block;
+        float: left;
+
+        p {
+            font-size: 14px;
+            margin-bottom: 10px;
+            em{
+                font-weight:bold;
+            }
+            &:last-of-type {
+                margin-bottom: 25px;
+            }
+        }
+    }
+    .welcome-image {
+        position:absolute;
+        top: 60px;
+        right:30px;
+        width: 280px;
+        display:inline;
+        float: right;
+    }
+    h2 {
+        margin: 80px 0 25px 0;
+        font-size: 24px;
+        color: $darkgrey;
+    }
+    .close-text {
+        float: right;
+        padding: 0 28px;
+        color: $connexive-blue;
+        font-size: 12px;
+        line-height: 27px;
+        height: 27px;
+        color: #727b7f;
+    }
+
+    img {
+        display:inline-block;
+        margin: 0 0 0 20px;
+        width: 240px;
+        height: 300px;
+    }
+    .close-facebox-button {
+        float:right;
+        margin: 20px 50px 0 0;
+    }
+}
+
+#facebox .picker {
+    overflow: hidden;
+    background: #fff;
+    width: 822px;
+    margin: 0 auto;
+    h3 {
+        font-size: 18px;
+        color: #727b7f;
+        font-family: Georgia, Palatino, "Book Antiqua", serif;
+        font-weight: normal;
+        padding: 20px 20px 30px 20px;
+    }
+
+    p {
+        font-size: 12px;
+        color: #a4a4a4;
+        line-height: 14px;
+        padding: 0 20px 0 20px;
+        display: inline-block;
+        float: left;
+    }
+
+      .companies-container {
+          max-height:500px;
+          overflow:auto;
+      }
+
+    .companies {
+        overflow: hidden;
+        margin: 0 0 14px 0;
+        padding: 0 20px;
+        h4 {
+            text-transform: uppercase;
+            color: #755434;
+            font-size: 14px;
+            padding: 0 0 13px 0;
+            span {
+                font-weight: normal;
+                color: #a4a4a4;
+                font-size: 12px;
+            }
+        }
+    }
+
+    .i-company {
+        overflow: hidden;
+        width: 162px;
+        height: 51px;
+        background: #fff;
+        border: 1px solid #f2f2f2;
+        float: left;
+        margin: 0 15px 15px 0;
+        cursor: pointer;
+        color: #435d76;
+        &:hover {
+            border: 1px solid #d8d8d8;
+        }
+        h6 {
+            overflow: hidden;
+            margin-left: 8%;
+            line-height: 51px;
+        }
+        img {
+            float: left;
+            margin: 15px 12px 0 0;
+        }
+        span {
+            float: left;
+            display: block;
+            text-align: center;
+            font-size: 12px;
+            font-weight: bold;
+        }
+    }
+    .crossed-out {
+        background: url(/images/picker-crossed-out.png) no-repeat 80px center;
+        color: #a4a4a4;
+    }
+
+    .close-facebox-button {
+        float:right;
+        margin: 0px 30px 30px 0;
+        display: inline-block;
+    }
+}

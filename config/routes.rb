@@ -1,4 +1,29 @@
 Portfolio2011::Application.routes.draw do
+  get "pages/webmessenger"
+
+  get "pages/mobilehome"
+
+  get "pages/dashboard"
+
+  get "pages/onboarding"
+
+  get "pages/personalprojects"
+
+  get "pages/gadgets"
+
+  get "pages/home"
+
+  get "pages/works"
+
+  match '/home', :to => 'pages#home'
+  match '/webmessenger', :to => 'pages#webmessenger'
+  match '/mobilehome', :to => 'pages#mobilehome'
+  match '/dashboard', :to => 'pages#dashboard'
+  match '/onboarding', :to => 'pages#onboarding'
+  match '/personalprojects', :to => 'pages#personalprojects'
+  match '/gadgets', :to => 'pages#gadgets'
+  match '/webmessenger', :to => 'pages#webmessenger'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

@@ -1,0 +1,67 @@
+@mixin institution {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: $connexive-blue;
+    white-space: nowrap;
+}
+
+
+@mixin time {
+    color: $connexive-brown;
+    float: right;
+}
+
+@mixin buttonize ($button-width) {
+    background: #d6d7d7;
+    border: 1px solid #bfc0c0;
+    height: 18px;
+    padding: 0 5px;
+    margin: 4px 4px;
+    width: $button-width;
+    float: left;
+}
+
+@mixin truncate($width) {
+    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+    width: $width;
+}
+
+@mixin rounded-corners($radius) {
+    -moz-border-radius: $radius;
+    -webkit-border-radius: $radius;
+    border-radius: $radius;
+}
+
+@mixin linear-gradient($start, $end) {
+    background: -moz-linear-gradient(top, $start, $end);
+    background: -webkit-gradient(linear, left top, left bottom, from($start), to($end));
+    background: -webkit-linear-gradient(top, $start, $end);
+    background: -o-linear-gradient(top, $start, $end);
+    background: -ms-linear-gradient(top, $start, $end);
+}
+
+@mixin admin-button ($button-width) {
+    @include rounded-corners(5px);
+    @include linear-gradient($filterNormal, darken($filterNormal, 20%));
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    border: 1px solid #bfc0c0;
+    height: 18px;
+    padding: 2px 3px;
+    margin: 4px 4px;
+    width: $button-width;
+    &:hover {
+        @include linear-gradient(darken($filterNormal, 40%), black);
+        color: white;
+        border: 1px solid black;
+    }
+    &:active {
+        @include linear-gradient(darken($filterNormal, 40%), black);
+        border: 1px solid $amz-orange;
+        color: $amz-orange;
+    }
+}
