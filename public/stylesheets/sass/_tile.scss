@@ -50,7 +50,7 @@
                 }
             }
             .label {
-                padding: 0 15px 5px 15px;
+                padding: 0 15px 10px 15px;
                 border-bottom: 2px dotted $bordergrey;
                 font-family: 'La Belle Aurore', cursive;
                 a {
@@ -58,6 +58,7 @@
                 &:hover {
                         text-decoration: none;
                         color: $accent-color;
+                        text-shadow: 0 1px white, 0 -1px $bordergrey;
                     }
                 }
             }

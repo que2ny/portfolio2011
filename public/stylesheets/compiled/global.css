@@ -72,14 +72,15 @@ header {
           -webkit-box-shadow: inset 0 0 10px #cccccc;
           box-shadow: inset 0 0 10px #cccccc; }
       .tile-area .tile-vertical .tile .label, .tile-left .tile-vertical .tile .label {
-        padding: 0 15px 5px 15px;
+        padding: 0 15px 10px 15px;
         border-bottom: 2px dotted #dddddd;
         font-family: 'La Belle Aurore', cursive; }
         .tile-area .tile-vertical .tile .label a, .tile-left .tile-vertical .tile .label a {
           font-size: 24px; }
           .tile-area .tile-vertical .tile .label a:hover, .tile-left .tile-vertical .tile .label a:hover {
             text-decoration: none;
-            color: #1397ea; }
+            color: #1397ea;
+            text-shadow: 0 1px white, 0 -1px #dddddd; }
       .tile-area .tile-vertical .tile .description, .tile-left .tile-vertical .tile .description {
         padding: 10px 15px;
         font-size: 12px;
