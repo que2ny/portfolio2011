@@ -1,5 +1,5 @@
 @import url("/stylesheets/reset.css");
-@import url(http://fonts.googleapis.com/css?family=La+Belle+Aurore|Ubuntu+Condensed);
+@import url(http://fonts.googleapis.com/css?family=La+Belle+Aurore);
 header {
   height: 70px;
   background-color: white; }
@@ -15,7 +15,7 @@ header {
   float: left;
   text-shadow: 0 1px white; }
   .name a:hover {
-    color: #1397ea;
+    color: #534b45;
     text-shadow: 0 1px white, 0 -1px #dddddd; }
 
 .header-nav {
@@ -114,6 +114,14 @@ header {
       text-indent: 20px; }
   .portfolio-content img {
     margin-right: 15px; }
+  .portfolio-content .vertical {
+    display: inline-block;
+    float: left;
+    margin: 10px 10px 10px 0;
+    max-width: 300px; }
+  .portfolio-content .caption {
+    font-style: italic;
+    margin-bottom: 50px; }
 
 .tile-left a {
   font-size: 14px; }
@@ -136,7 +144,7 @@ h1 {
   color: #cccccc;
   font-family: 'La Belle Aurore', cursive;
   font-size: 30px;
-  font-weight: bold; }
+  font-weight: normal; }
 
 h2 {
   color: #cccccc;

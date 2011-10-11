@@ -15,7 +15,7 @@ header {
         text-shadow: 0 1px white;
 
         &:hover {
-            color: $accent-color;
+            color: $text-default;
             text-shadow: 0 1px white, 0 -1px $bordergrey;
         }
     }

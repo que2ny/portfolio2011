@@ -34,6 +34,16 @@
     img {
         margin-right: 15px;
     }
+    .vertical {
+        display: inline-block;
+        float: left;
+        margin: 10px 10px 10px 0;
+        max-width: 300px;
+    }
+    .caption {
+        font-style: italic;
+        margin-bottom: 50px;
+    }
 }
 .tile-left {
     a {

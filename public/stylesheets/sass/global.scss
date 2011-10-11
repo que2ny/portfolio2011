@@ -1,5 +1,5 @@
 @import url("/stylesheets/reset.css");
-@import url(http://fonts.googleapis.com/css?family=La+Belle+Aurore|Ubuntu+Condensed);
+@import url(http://fonts.googleapis.com/css?family=La+Belle+Aurore);
 @import "colors";
 @import "page-header";
 @import "mixins";
@@ -22,7 +22,7 @@ body {
 
 
 .clear              {clear: both;}
-h1                  {color: $darkgrey; font-family: 'La Belle Aurore', cursive; font-size: 30px; font-weight: bold;}
+h1                  {color: $darkgrey; font-family: 'La Belle Aurore', cursive; font-size: 30px; font-weight: normal;}
 h2                  {color: $darkgrey; font-family: 'La Belle Aurore', cursive; font-size: 24px; font-weight: bold;}
 h2 b                {font-weight: bold;}
 h3                  {color: $darkgrey; font-size: 18px; font-weight: bold;}
