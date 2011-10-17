@@ -1,5 +1,5 @@
 @import url("/stylesheets/reset.css");
-@import url(http://fonts.googleapis.com/css?family=La+Belle+Aurore);
+@import url(http://fonts.googleapis.com/css?family=La+Belle+Aurore|Ubuntu+Condensed);
 @import "colors";
 @import "page-header";
 @import "mixins";
@@ -68,7 +68,6 @@ input[type="checkbox"]          {vertical-align: bottom;}
     em {
         font-weight: bold;
     }
-    border-bottom: 1px solid $bordergrey;
 }
 .border-emboss {
     width:630px;

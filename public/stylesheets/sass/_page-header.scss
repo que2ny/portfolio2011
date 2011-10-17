@@ -1,10 +1,24 @@
 header {
-    height: 70px;
+    height: 90px;
     background-color: white;
+    background: url(/images/header-bg.png) repeat-x;
 }
 .header-container {
     width: 1024px;
     margin: 0 auto;
+}
+.header-image {
+    position: absolute;
+    left:0;
+    top: -2px;
+    width: 555px;
+    height: 352px;
+    background: url(/images/header.png) no-repeat bottom;
+    text-indent: -999999px;
+
+    &:hover {
+        background-position:0 0;
+    }
 }
 .name {
     a {
@@ -23,16 +37,19 @@ header {
 .header-nav {
     display: inline-block;
     float: right;
-    margin: 50px 40px 10px 0;
+    padding: 50px 40px 10px 0;
+    height: 90px;
     ul {
         li {
             display: inline-block;
             a {
                 font-size: 14px;
+                font-weight: bold;
                 margin-right: 24px;
+                color: $accent-color;
                 &:hover {
                     text-decoration: none;
-                    color: $accent-color;
+                    color: $accent-color-dark;
                 }
             }
         }
