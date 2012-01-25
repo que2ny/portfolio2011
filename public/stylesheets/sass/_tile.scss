@@ -39,7 +39,7 @@
                 border-left: 1px solid $darkgrey;
                 border-top: 1px solid $darkgrey;
                 border-bottom: 1px solid $darkgrey;
-                border-right: 16px solid $darkgrey;
+                border-right: 1px solid $darkgrey;
                 float: left;
 
                 .small-image {
@@ -59,10 +59,13 @@
                 }
                 .label {
                     padding: 0 15px 10px 15px;
+                    margin-top: -8px;
                     border-bottom: 2px dotted $bordergrey;
-                    font-family: 'La Belle Aurore', cursive;
+                    font-family: Courier New, serif;
                     a {
-                    font-size: 24px;
+                    font-size: 18px;
+                    color: $text-default;
+                    font-weight: normal;
                     &:hover {
                             text-decoration: none;
                             color: $accent-color;
@@ -76,12 +79,12 @@
                     color: $text-default;
                     line-height: 18px;
 
-                    .box-bottom-div {
+                    /*.box-bottom-div {
                         display: inline-block;
                         position: absolute;
                         bottom: -6px;
                         right: -16px;
-                    }
+                    } */
                 }
             }
         }

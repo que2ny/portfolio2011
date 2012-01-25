@@ -27,6 +27,8 @@ Portfolio2011::Application.routes.draw do
   match '/personalprojects', :to => 'pages#personalprojects'
   match '/gadgets', :to => 'pages#gadgets'
   match '/connexive', :to => 'pages#connexive'
+  match '/geophoto', :to => 'pages#geophoto'
+  match '/template', :to => 'pages#template'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

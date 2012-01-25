@@ -8,50 +8,52 @@ header {
     margin: 0 auto;
 }
 .header-image {
-    position: absolute;
-    left:0;
-    top: -2px;
-    width: 555px;
-    height: 352px;
-    background: url(/images/header.png) no-repeat bottom;
-    text-indent: -999999px;
-
-    &:hover {
-        background-position:0 0;
-    }
+  position: absolute;
+  left: 0;
+  top: 0px;
+  left: 200px;
+  width: 380px;
+  height: 100px;
+  background: url(/images/complex2simple.png) no-repeat top;
+  text-indent: -999999px;
 }
-.name {
-    a {
-        font-size: 60px;
-        margin: 50px 0 0 40px;
-        display: inline-block;
-        float: left;
-        text-shadow: 0 1px white;
 
-        &:hover {
-            color: $text-default;
-            text-shadow: 0 1px white, 0 -1px $bordergrey;
-        }
-    }
-}
-.header-nav {
+.upper-right {
     display: inline-block;
     float: right;
-    padding: 50px 40px 10px 0;
-    height: 90px;
-    ul {
-        li {
-            display: inline-block;
-            a {
-                font-size: 14px;
-                font-weight: bold;
-                margin-right: 24px;
-                color: $accent-color;
-                &:hover {
-                    text-decoration: none;
-                    color: $accent-color-dark;
+    padding: 10px 40px 10px 0;
+    font-family: Courier, serif;
+
+    .name {
+        display: block;
+        font-size:24px;
+        color: $accent-color;
+        margin:0 0 5px 0px;
+        text-shadow: 0 1px white;
+    }
+    .dotline {
+        background: url(/images/dot.gif) repeat-x;
+        width: 350px;
+        min-height:5px;
+        padding: 5px;
+        display:block;
+    }
+    .header-nav {
+        display: block;
+        ul {
+            li {
+                display: inline-block;
+                a {
+                    font-size: 12px;
+                    margin-right: 24px;
+                    color: $text-default;
+                    &:hover {
+                        text-decoration: none;
+                        color: $accent-color-dark;
+                    }
                 }
             }
         }
     }
 }
+
