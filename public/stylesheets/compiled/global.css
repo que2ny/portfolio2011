@@ -87,7 +87,6 @@ header {
           position: relative; }
           .tile-area .tile-vertical .tile-container .tile .small-image img, .tile-left .tile-vertical .tile-container .tile .small-image img {
             width: 220px;
-            height: 180px;
             margin: 1px;
             border-bottom: 2px dotted #dddddd;
             -moz-box-shadow: inset 0 0 10px #cccccc;
