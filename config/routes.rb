@@ -1,4 +1,6 @@
 Portfolio2011::Application.routes.draw do
+  resources :projects
+
   root :to => "pages#home"
 
   get "pages/connexive"
